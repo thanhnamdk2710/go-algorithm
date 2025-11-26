@@ -3,11 +3,11 @@ package leetcode
 import "strconv"
 
 // Problem:
-// Given an integer n, return a string array answer (1-indexed) where:
-// answer[i] == "FizzBuzz" if i is divisible by 3 and 5.
-// answer[i] == "Fizz" if i is divisible by 3.
-// answer[i] == "Buzz" if i is divisible by 5.
-// answer[i] == i (as a string) if none of the above conditions are true.
+// For each integer from 1 to n, produce:
+// - "FizzBuzz" if divisible by both 3 and 5
+// - "Fizz" if divisible by 3
+// - "Buzz" if divisible by 5
+// - otherwise the number itself as a string.
 
 // Approach:
 // 1. Create a result slice of size n
