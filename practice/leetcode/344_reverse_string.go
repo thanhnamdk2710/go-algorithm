@@ -4,10 +4,9 @@ package leetcode
 // Given an array of characters, reverse the array in-place
 // You must modify the array directly using O(1) extra space
 
-// Approach:
-// Use the two pointers technique:
-// - Initialize two indices: left at the start and right at the end of the array
-// - While left < right:
+// Approach (Two-pointer):
+// 1. Initialize two indices: left at the start and right at the end of the array
+// 2. While left < right:
 //   - Swap the characters at positions left and right
 //   - Move left forward and right backward
 
